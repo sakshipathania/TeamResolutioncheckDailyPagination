@@ -106,7 +106,7 @@ public class BaseClass {
 						df.setRoundingMode(RoundingMode.DOWN);
 						// System.out.println(df.format(roundedValue));
 						float f = Float.parseFloat(df.format(roundedValue));
-						System.out.println(i + "--f = " + f);
+						//System.out.println(i + "--f = " + f);
 						if (f > 1.79 || f < 1.76) {
 							System.out.println(
 									"URL = " + driver.getCurrentUrl() + "\n" + "PPtNumber = " + i + " -" + width + "-"
