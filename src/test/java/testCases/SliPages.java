@@ -11,9 +11,13 @@ public class SliPages extends BaseClass {
 	@DataProvider
 	public Object[][] windowResolution() {
 
-		return new Object[][] { // { 1536, 864 }- failed,
-				{ 1920, 1080 }, { 1280, 720 }, { 1920, 1200 }, { 1440, 900 }, { 2560, 1440 }, { 1366, 768 },
-				{ 1680, 1050 } };
+		return new Object[][] {
+			
+			{ 1366, 768 }, { 1280, 720 }, { 1440, 900 },
+			
+				//{ 1920, 1080 }, { 1280, 720 }, { 1920, 1200 }, { 1440, 900 }, { 2560, 1440 }, { 1366, 768 },{ 1536, 864 }- failed,
+				//{ 1680, 1050 }
+		};
 	}
 
 	@Test(dataProvider = "windowResolution", enabled = true)
