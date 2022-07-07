@@ -10,9 +10,9 @@ public class NewlyProducts extends BaseClass {
 	@DataProvider
 	public Object[][] windowResolution() {
 
-		return new Object[][] { //{ 2560, 1440 }, { 1920, 1080 },  { 1920, 1200 },{ 1680, 1050 }
-				{ 1366, 768 }, { 1280, 720 }, { 1440, 900 }, 
-				// { 1536, 864 } -getting 1.71
+		return new Object[][] { //{ 2560, 1440 }, { 1920, 1080 },  { 1920, 1200 },{ 1680, 1050 },
+				 { 1280, 720 }, { 1440, 900 }, 
+				// { 1536, 864 } { 1366, 768 },-getting 1.71
 		};
 	}
 
